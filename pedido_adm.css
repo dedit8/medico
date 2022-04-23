@@ -1,0 +1,31 @@
+
+.button_small-check, .button_small-del{
+  width: 22rem;
+  height: 28rem;
+  padding: 1rem;
+    margin: 0.1rem 0.3rem;
+    border: none;
+    border-radius: 100px;
+    transition: 10ms;
+}
+.button_small-check{
+    background-color: #6FB3E3;
+        border-radius: 10px;
+
+}
+.button_small-del{
+    background-color: #F03A30;
+}
+.button_small-check i, .button_small-del i{
+    color: #fff;
+}
+#deletePdo{
+    width: 8rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.button_small-check:hover, .button_small-del:hover{
+    filter: brightness(120%);
+}
