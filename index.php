@@ -1,5 +1,6 @@
 <?php require 'conexion.php';
 require 'navar.php';
+require 'footer.php';
 
  ?>
 
@@ -23,6 +24,6 @@ h1{text-align: center;}
 <p>2°Paso inicie sesión </p>
 <p>3°Utilise el buscador que tiene arriba ala derecha para poder buscar por nombre de médico o por día de disponibilidad
 </p>
-<p></p>
+
   </body>
 </html>
