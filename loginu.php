@@ -15,7 +15,7 @@ require 'navar.php';
       color: rgb(230, 210, 98);
     }
     input{
-      width: 600px;
+      width: 640px;
       text-height: 55px;
       font-size: 35px;
     }

@@ -26,7 +26,7 @@
       <a class="nav-link" href="modifidat.php" >modificar datos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="serse.php" >serrar secion</a>
+      <a class="nav-link" href="serse.php" >cerrar sesión     </a>
     </li>
   </ul>
 

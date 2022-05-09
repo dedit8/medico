@@ -7,6 +7,15 @@ require 'navar.php';
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
+
+    <style media="screen">
+    div.contenedor-inputs{
+      text-align: center;
+
+    }
+    body{background-color: rgb(0, 0, 0);}
+    </style>
   </head>
   <body>
 
@@ -15,7 +24,7 @@ require 'navar.php';
         <div class="popup" id="popup">
           <a href="#" id='btn-cerrar-popup' class="btn-cerrar-popup"><i class="fas fa-times" id='btn-cerrar-popup'></i></a>
           <div class="form_head">
-            <h1>Inicio de Sesión del Administrador</h1>
+          <h1 style="text-align: center; color: rgb(9, 126, 249);">Inicio de Sesión del Administrador</h1>
           </div>
           <div class="contenedor-inputs">
             <form class="form_order" action="logad.php" method="post">

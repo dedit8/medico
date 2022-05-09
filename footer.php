@@ -22,7 +22,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background: rgb(22, 79, 212);
     height: 15%;
     width: 100vw;
     padding-bottom: auto;
@@ -105,11 +105,8 @@ h6{
     <footer>
         <div class="Sticky footer">
             <ul class="socials">
-                <li><a href="https://www.facebook.com/guiller.pegoraro/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="mailto:guillermojesus15@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/guillermo-pegoraro-54958620b/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li><a href="https://wa.me/03462368526"><i class="fa fa-whatsapp"></i></a></li>
-                <h6>copyright &copy;2022 <a href="https://www.linkedin.com/in/guillermo-pegoraro-54958620b/">guillermo pegoraro</a>  </h6>
+                <li><a href="https://wa.me/3462616814"><i class="fa fa-whatsapp"></i></a></li>
+                <h6>copyright &copy;2022 <a href="https://www.linkedin.com/in/guillermo-pegoraro-54958620b/">Guillermo Pegoraro</a>  </h6>
 
             </ul>
 

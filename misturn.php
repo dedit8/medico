@@ -55,13 +55,13 @@
                               <label for="calle"><?php echo $mostrar['med']?></label>
                             </div>
                             <div>
-                              <h5>atendido</h5>
+                              <h5>turno dado</h5>
                               <label for="zona"><?php echo $mostrar['atendido']?></label>
                             </div>
                           </div>
                         </div>
                         <div>
-                          <a class="button" href='canselar.php?id=<?php echo $mostrar['id'] ?>'>canselar</a>
+                          <a class="button" href='canselar.php?id=<?php echo $mostrar['id'] ?>'>cancelar</a>
                         </div>
                       </div>
                   <?php }?>

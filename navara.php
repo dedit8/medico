@@ -16,17 +16,19 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
   <ul class="navbar-nav mr-auto">
+
+<li>
+  <img src="logo.jpg" alt="Forest" width="170" height="100">
+
+</li>
+    <li class="nav-item">
+      <a class="nav-link" href="adm.php" >agregar turnos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="jen.php" >datos del paciente</a>
+    </li>
     <li class="nav-item active">
-      <a class="nav-link" href="serse.php">serar sesion<span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="ped.php">turnos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="adm.php" >agrega turnos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="jen.php" >datos del pacientes</a>
+      <a class="nav-link" href="serse.php">cerrar sesión<span class="sr-only">(current)</span></a>
     </li>
   </ul>
 

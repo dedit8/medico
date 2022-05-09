@@ -19,10 +19,10 @@ require '1a.php';
   <body>
     <div class="cuerpo_ped_adm">
       <div class="nuevo_pedido">
-        <h1>Ingrese Nuevo Turno</h1>
+        <h1>Ingrese Para Un Nuevo Turno</h1>
         <form class="inputs_adm" action="zona.php" method="post">
           <input type="text"placeholder="dni para pedido manual" name="dni"  />
-            <input type="text"placeholder="nombre del medico" name="med" required  />
+            <input type="text"placeholder="nombre y apellido medico" name="med" required  />
           <input type="date" name="dia" required  />
           <input type="time" name="hora" placeholder="hora" required  />
           <input class="button" type="submit" value="Enviar">
