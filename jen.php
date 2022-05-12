@@ -37,10 +37,10 @@ require '1a.php';
             <thead>
               <tr>
                 <th class="id_ped"></th>
+                <th>nom/ape</th>
                 <th>dni</th>
-                <th>mutual</th>
-                <th>obra</th>
-                <th>carnet</th>
+                <th>mutual/obrasocia</th>
+                <th>numero</th>
                 <th>tel</th>
                 <th></th>
 
@@ -55,6 +55,6 @@ require '1a.php';
         </div>
       </div>
     </div>
-    <script src="tablea.js"></script>
+    <script src="tablea2.js"></script>
   </body>
 </html>

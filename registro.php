@@ -27,10 +27,10 @@ background-color: rgb(22, 105, 158);
       <div class="contenedor-inputs">
 
           <form class="form_order" action="regis.php" method="POST">
+            <input type="text" placeholder="nombre y apellido" name="nom" >
               <input type="text" placeholder="DNI" name="dni" required>
-                <input type="text" placeholder="mutual" name="mutual" required>
-                  <input type="text" placeholder="obra social" name="obra" required>
-                    <input type="text" placeholder="carnet" name="carnet" required>
+                <input type="text" placeholder="mutual/obrasocial" name="mutual">
+                    <input type="text" placeholder="numero de la mutual" name="carnet">
                     <input type="text" placeholder="telefono" name="tel" required>
 
               <input class="button-modal" type="submit" value="Enviar">

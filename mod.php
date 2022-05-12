@@ -1,18 +1,17 @@
 <?php
 require 'conexion.php';
 require '1u.php';
-
+$nom = $_POST["nom"];
 $dni = $_POST["dni"];
 $mutual = $_POST["mutual"];
-$obra  = $_POST["obra"];
 $carnet = $_POST["carnet"];
 $tel = $_POST["tel"];
 
 
    $id = $_POST['id'];
 
- $sql_update = mysqli_query($conexion, "UPDATE dni SET dni = '$dni', mutual = '$mutual',
-   obra='$obra', carnet='$carnet', tel = '$tel'
+ $sql_update = mysqli_query($conexion, "UPDATE dni SET nom='$nom', dni = '$dni', mutual = '$mutual',
+   , carnet='$carnet', tel = '$tel'
 
 
 

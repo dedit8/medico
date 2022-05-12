@@ -24,7 +24,7 @@
             <body>
               <div class="cuerpo_ped">
                 <header class="header_ped">
-                  <h1>Bienvenido <?php echo $mostrar['dni']; ?></h1>
+                  <h1>Bienvenido <?php echo $mostrar['nom']; ?></h1>
                   <h2>sus turnos</h2>
                 </header>
                 <div class="orden_pedidos">

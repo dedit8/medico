@@ -38,10 +38,9 @@
                   <form class="form_order" action="mod.php" method="post">
                       <div class="pedido">
                         <div class="temporada">
+                          <input class="entrada" type="text" name="obra"placeholder="nombre y apellido" value="<?php echo $mostrar['nom']; ?>" required/>
                           <input class="entrada" type="text" name="dni"placeholder="dni" value="<?php echo $mostrar['dni']; ?>" required/>
                           <input class="entrada" type="text" name="mutual"placeholder="mutual" value="<?php echo $mostrar['mutual']; ?>" required/>
-                          <input class="entrada" type="text" name="obra"placeholder="obra" value="<?php echo $mostrar['obra']; ?>" required/>
-
                           <input class="entrada" type="text" name="carnet" placeholder="carnet" value="<?php echo $mostrar['carnet']; ?>" required/>
                           <input class="entrada" type="text" name="tel" placeholder="telefono" value="<?php echo $mostrar['tel']; ?>" required/>
                           <input type="hidden" name="id"value="<?php echo $mostrar['id']; ?>" required  />
