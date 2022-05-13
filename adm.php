@@ -25,7 +25,7 @@ require '1a.php';
         <form class="inputs_adm" action="zona.php" method="post">
           <input type="text"placeholder="dni para pedido manual" name="dni"  />
             <input type="text"placeholder="nombre y apellido medico" name="med" required  />
-            <input type="text"placeholder="especialización" name="esp" required  />
+            <input type="text"placeholder="especialista" name="esp" required  />
             <input type="text"placeholder="asosiacion" name="aso" required  />
             <input type="text"placeholder="costo paticular" name="cost" required  />
           <input type="date" name="dia" required  />
@@ -81,10 +81,10 @@ require '1a.php';
                           <th class="id_ped"></th>
                           <th>dni</th>
                           <th>medico</th>
-                          <th>espesialidad</th>
+                          <th>especialista</th>
                           <th>dia</th>
                           <th>hora</th>
-                          <th>asosiado</th>
+                          <th>obras sociales/prepagas</th>
                           <th>costo particular</th>
                           <th>atendido</th>
                           <th>pedir turno</th>
