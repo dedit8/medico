@@ -18,7 +18,9 @@ require 'footer.php';
       background-size: cover;
     }
     div.transbox {
-      margin: 30px;
+      margin-left: 125px;
+      margin-right: 125px;
+
       background-color: rgb(61, 161, 134);
       border: 1px solid black;
       opacity: 1.0;
