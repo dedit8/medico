@@ -53,8 +53,11 @@
 
                                   <th>dni</th>
                                   <th>medico</th>
+                                  <th>espesialidad</th>
                                   <th>dia</th>
                                   <th>hora</th>
+                                  <th>asosiado</th>
+                                  <th>costo particular</th>
                                   <th>atendido</th>
                                   <th>pedir turno</th>
 

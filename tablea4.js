@@ -7,15 +7,15 @@
                                   "url":"listregister.php"
                                 },
                                 "columns":[
-                                  {"data":"id"},
-                                {"data":"dni"},
-                                {"data":"med"},
-                                {"data":"esp"},
-                                {"data":"dia"},
-                                {"data":"hora"},
-                                {"data":"aso"},
-                                {"data":"cost"},
-                                {"data":"atendido"},
+                                    {"data":"id"},
+                                  {"data":"dni"},
+                                  {"data":"med"},
+                                  {"data":"esp"},
+                                  {"data":"dia"},
+                                  {"data":"hora"},
+                                  {"data":"aso"},
+                                  {"data":"cost"},
+                                  {"data":"atendido"},
 
                                   {"defaultContent":"<button class='button_small-check' id='check'><i class='fas fa-check'></i></button><button class='button_small-del' id='delete'><i class='fas fa-minus'></i></button>"}
 

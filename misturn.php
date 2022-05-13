@@ -45,6 +45,10 @@
                             <h5>turno</h5>
                             <label for="fecha"><?php echo $mostrar['dia']?></label>
                           </div>
+                          <div class="retiro">
+                            <h5>asociado</h5>
+                            <label for="fecha"><?php echo $mostrar['aso']?></label>
+                          </div>
                           <div class="lugar">
                             <div>
                               <h5>hora</h5>
@@ -52,11 +56,11 @@
                             </div>
                             <div>
                               <h5>medico</h5>
-                              <label for="calle"><?php echo $mostrar['med']?></label>
+                              <label for="calle"><?php echo $mostrar['med'];echo " ";echo $mostrar['esp']?></label>
                             </div>
                             <div>
-                              <h5>turno dado</h5>
-                              <label for="zona"><?php echo $mostrar['atendido']?></label>
+                              <h5>presio particular</h5>
+                              <label for="zona"><?php echo $mostrar['cost']?></label>
                             </div>
                           </div>
                         </div>

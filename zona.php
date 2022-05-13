@@ -4,12 +4,16 @@
   $dia = $_POST["dia"];
   $hora = $_POST["hora"];
   $med = $_POST["med"];
+  $esp = $_POST["esp"];
+  $aso = $_POST["aso"];
+  $cost = $_POST["cost"];
+
 
 
 
 //insertamos los datos obtenidos
-$inserto = "INSERT INTO turn (dia, hora, med)
-                      VALUES ('$dia','$hora','$med')";
+$inserto = "INSERT INTO turn (dia, hora, med, esp, aso, cost)
+                      VALUES ('$dia','$hora','$med','$esp','$aso','$cost')";
 
 
 

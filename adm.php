@@ -14,6 +14,8 @@ require '1a.php';
 
 <style media="screen">
 
+
+
 </style>
   </head>
   <body>
@@ -23,9 +25,14 @@ require '1a.php';
         <form class="inputs_adm" action="zona.php" method="post">
           <input type="text"placeholder="dni para pedido manual" name="dni"  />
             <input type="text"placeholder="nombre y apellido medico" name="med" required  />
+            <input type="text"placeholder="especialización" name="esp" required  />
+            <input type="text"placeholder="asosiacion" name="aso" required  />
+            <input type="text"placeholder="costo paticular" name="cost" required  />
           <input type="date" name="dia" required  />
           <input type="time" name="hora" placeholder="hora" required  />
+          <div class="bot">
           <input class="button" type="submit" value="Enviar">
+              </div>
         </form>
 
       </div>
@@ -72,11 +79,13 @@ require '1a.php';
                       <thead>
                         <tr>
                           <th class="id_ped"></th>
-
                           <th>dni</th>
                           <th>medico</th>
+                          <th>espesialidad</th>
                           <th>dia</th>
                           <th>hora</th>
+                          <th>asosiado</th>
+                          <th>costo particular</th>
                           <th>atendido</th>
                           <th>pedir turno</th>
 
@@ -89,7 +98,7 @@ require '1a.php';
                   </div>
                 </div>
               </div>
-              <script src="tableu1.js"></script>
+              <script src="tablea4.js"></script>
             </body>
           </html>
 
