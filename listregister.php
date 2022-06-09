@@ -2,7 +2,7 @@
 
     require 'conexion.php';
 
-    $query = "SELECT * FROM turn";
+    $query = "SELECT * FROM turn WHERE dni!='1' ";
     $result = mysqli_query($conexion, $query);
 
     if(!$result){

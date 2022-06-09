@@ -3,8 +3,8 @@
 //resivimos los datos de lfet
   $dia = $_POST["dia"];
   $hora = $_POST["hora"];
-  $med = $_POST["med"];
-  $esp = $_POST["esp"];
+  $med = $_POST["lista1"];
+  $esp = $_POST["lista2"];
   $aso = $_POST["aso"];
   $cost = $_POST["cost"];
 

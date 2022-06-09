@@ -1,4 +1,5 @@
 <?php
+header("Refresh:10");
   require 'conexion.php';
   require 'navaru.php';
   session_start();

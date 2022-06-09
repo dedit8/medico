@@ -22,7 +22,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(22, 79, 212);
+    background: rgb(0, 0, 0);
     height: 15%;
     width: 100vw;
     padding-bottom: auto;
