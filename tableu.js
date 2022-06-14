@@ -12,7 +12,6 @@ $(document).ready( function () {
                       {"data":"dia"},
                       {"data":"hora"},
                       {"data":"aso"},
-                      {"data":"cost"},
                       {"data":"atendido"},
 
 

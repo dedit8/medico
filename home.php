@@ -58,7 +58,7 @@ header("Refresh:10");
                                   <th>dia</th>
                                   <th>hora</th>
                                   <th>obras sociales/prepagas</th>
-                                  <th>costo particular</th>
+                                  <th>  </th>
                                   <th>atendido</th>
                                   <th>pedir turno</th>
 

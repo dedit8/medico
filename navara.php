@@ -29,6 +29,9 @@
     <li class="nav-item">
       <a class="nav-link" href="jen.php" >Datos del paciente</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="datme.php">Datos del medicos</a>
+    </li>
     <li class="nav-item active">
       <a class="nav-link" href="serse.php">Cerrar sesión<span class="sr-only">(current)</span></a>
     </li>

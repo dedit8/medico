@@ -5,15 +5,16 @@
   $hora = $_POST["hora"];
   $med = $_POST["lista1"];
   $esp = $_POST["lista2"];
-  $aso = $_POST["aso"];
-  $cost = $_POST["cost"];
+  $aso = $_POST["lista3"];
+  $dni = $_POST["dni"];
+
 
 
 
 
 //insertamos los datos obtenidos
-$inserto = "INSERT INTO turn (dia, hora, med, esp, aso, cost)
-                      VALUES ('$dia','$hora','$med','$esp','$aso','$cost')";
+$inserto = "INSERT INTO turn (dia, hora, med, esp, aso, dni)
+                      VALUES ('$dia','$hora','$med','$esp','$aso','$dni')";
 
 
 

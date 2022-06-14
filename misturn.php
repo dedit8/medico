@@ -58,10 +58,6 @@
                               <h5>medico</h5>
                               <label for="calle"><?php echo $mostrar['med'];echo " ";echo $mostrar['esp']?></label>
                             </div>
-                            <div>
-                              <h5>presio particular</h5>
-                              <label for="zona"><?php echo $mostrar['cost']?></label>
-                            </div>
                           </div>
                         </div>
                         <div>

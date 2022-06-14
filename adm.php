@@ -79,13 +79,42 @@ require '1a.php';
           </script>
 <!-- -->
 
+<br>
+<div id="select3lista"></div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#lista1').val(1);
+    recargarLista();
+
+    $('#lista1').change(function(){
+      recargarLista();
+    });
+  })
+</script>
+<script type="text/javascript">
+  function recargarLista(){
+    $.ajax({
+      type:"POST",
+      url:"datos.php",
+      data:"sele=" + $('#lista1').val(),
+      success:function(r){
+        $('#select3lista').html(r);
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
           <input type="text"placeholder="DNI para pedido manual" name="dni"  />
           <!--
             <input type="text"placeholder="Nombre y apellido médico" name="med" required  />
             <input type="text"placeholder="Especialista" name="esp" required  />
              -->
-            <input type="text"placeholder="Asosiación" name="aso" required  />
-            <input type="text"placeholder="Costo particular" name="cost" required  />
           <input type="date" name="dia" required  />
           <input type="time" name="hora" placeholder="hora" required  />
           <div class="bot">
@@ -152,7 +181,7 @@ require '1a.php';
                           <th>Día</th>
                           <th>Hora</th>
                           <th>Obras sociales/prepagas</th>
-                          <th>Costo particular</th>
+                          <th></th>
                           <th>Atendido</th>
                           <th>Pedir turno</th>
 

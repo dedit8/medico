@@ -28,6 +28,10 @@
     <li class="nav-item">
       <a class="nav-link" href="serse.php" >cerrar sesión     </a>
     </li>
+    <li>
+      <br>
+      <h6><a href="https://wa.me/3462616814">preguntar precio</a>  </h6>
+    </li>
   </ul>
 
   </div>
