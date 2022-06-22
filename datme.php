@@ -29,7 +29,9 @@
               </tr>
 
               <?php
-                $sql="SELECT * from turn where dni='1'";
+              //selecsionamos los datos para que se muestren en orden de nombre
+                $sql="SELECT * from turn where dni='1' ORDER BY med" ;
+
                 $result=mysqli_query($conexion,$sql);
                 while($mostrar=mysqli_fetch_array($result)) {
 
